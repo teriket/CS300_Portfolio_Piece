@@ -18,4 +18,4 @@ I walked into this class with a strong foundation in data structures from my pre
 
   -How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
 
-This project gave me great practice in using inheritance in making code that is more maintainable, readable, and adaptable.  This can be seen in the AbstractOption class, which manages menu behaviors and is easy to add new menu options/ behaviors.  
+This project gave me great practice in using inheritance in making code that is more maintainable, readable, and adaptable.  This can be seen in the AbstractOption class, which manages menu behaviors and is easy to add new menu options/ behaviors.  One way this program could become more reusable is to refactor the BSTree and Node class to use generics and pass the BSTree to the menu by reference rather than using a singleton.
